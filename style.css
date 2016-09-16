@@ -1,0 +1,47 @@
+body {
+    background: #f1f1f1;
+}
+
+#main {
+    //border: solid 1px red;
+    width: 50%;
+    margin: auto;
+}
+.comment {
+   // border: solid 1px blue;
+    margin: 8px 8px 0 8px;
+    background: white;
+    padding: 15px 15px 0 15px;
+    float: left;
+}
+.commentInfo {
+   // border: solid 1px green;
+    width: 59%;
+    float: left;
+}
+.commentLikes {
+   // border: solid 1px yellow;
+    width: 39%;
+    float: left;
+}
+.commentText {
+   // border: solid 1px black;
+    width: 100%;
+    float: left;
+    border-top: solid 1px #cdcdcd;
+    margin-top: 10px;
+
+}
+.imgDown, .imgUp {
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+
+}
+.up, .down, .imgUp, .imgDown {
+    float: right;
+}
+.down {
+    margin-left: 15px;
+}
+
